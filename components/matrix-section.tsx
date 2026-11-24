@@ -1,33 +1,33 @@
 import { Reveal } from '@/components/reveal'
-import { Target, Cpu, Mail, BadgeCheck } from 'lucide-react'
+import { Share2, Target, Mail, CalendarCheck } from 'lucide-react'
 
 const cards = [
   {
     step: '01',
-    title: 'Capture Directe',
-    icon: Target,
-    text: "Un tunnel de qualification optimisé qui filtre les curieux et ne fait remonter que des vendeurs à réelle intention. Vous ne parlez plus qu'à des prospects déjà chauds.",
+    title: 'Autorité Locale',
+    icon: Share2,
+    text: "Quatre publications d'expertise diffusées chaque semaine à votre nom sur vos communes. Vous installez votre statut de référence locale sans y passer vos soirées.",
     span: 'md:col-span-3',
   },
   {
     step: '02',
-    title: 'Moteur Central',
-    icon: Cpu,
-    text: "L'automatisation des flux et de la donnée. Chaque lead est capté, enrichi, scoré et routé sans intervention manuelle. Le cœur de l'infrastructure.",
+    title: 'Capture Ciblée',
+    icon: Target,
+    text: "Votre page dédiée offre le Guide de la Valorisation Immobilière en échange des coordonnées et de la ville du bien. Seuls les propriétaires réellement intéressés entrent dans votre base.",
     span: 'md:col-span-3',
   },
   {
     step: '03',
-    title: 'Nurturing',
+    title: 'Relances Automatisées',
     icon: Mail,
-    text: "Des séquences de relances emails programmées qui entretiennent la relation et maintiennent votre expertise en tête, jusqu'au déclic du mandat.",
+    text: "Des séquences d'e-mails envoyées à votre nom éduquent les propriétaires hésitants sur la stratégie de prix et maintiennent votre expertise en tête jusqu'au passage à l'action.",
     span: 'md:col-span-3',
   },
   {
     step: '04',
-    title: 'Autorité',
-    icon: BadgeCheck,
-    text: "Des publications d'expertise en continu qui installent votre statut de référence sur votre secteur. On ne vous choisit plus par hasard.",
+    title: 'Agenda Qualifié',
+    icon: CalendarCheck,
+    text: "À chaque étape du parcours, les propriétaires matures peuvent réserver directement un créneau d'Analyse Stratégique de 15 minutes dans vos disponibilités.",
     span: 'md:col-span-3',
   },
 ]
@@ -51,8 +51,8 @@ export function MatrixSection() {
           </Reveal>
           <Reveal delay={0.14}>
             <p className="mt-5 text-pretty text-base leading-relaxed text-[#a3a3a3] md:text-lg">
-              Quatre modules interconnectés. Une seule mécanique : transformer votre présence
-              en flux prévisible de mandats.
+              Quatre piliers interconnectés. Une seule mécanique : transformer votre présence
+              locale en rendez-vous vendeurs qualifiés.
             </p>
           </Reveal>
         </div>
