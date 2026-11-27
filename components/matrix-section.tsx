@@ -4,9 +4,9 @@ import { Share2, Target, Mail, CalendarCheck } from 'lucide-react'
 const cards = [
   {
     step: '01',
-    title: 'Autorité Locale',
+    title: 'Autorité Locale & Diffusion de Biens',
     icon: Share2,
-    text: "Quatre publications d'expertise diffusées chaque semaine à votre nom sur vos communes. Vous installez votre statut de référence locale sans y passer vos soirées.",
+    text: "Quatre carrousels d'expertise par semaine à votre nom sur vos communes, validés en un clic, plus la diffusion express de vos biens conformes Loi Alur et DPE (Nouveaux biens, Sous offre, Vendu) en moins d'une minute.",
     span: 'md:col-span-3',
   },
   {
